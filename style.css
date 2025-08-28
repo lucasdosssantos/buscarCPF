@@ -1,0 +1,112 @@
+/* Reset geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Staatliches', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    color: #c77dff;
+  }
+  
+  /* Seção de dados do usuário */
+  #dadosUsuario {
+    margin-bottom: 40px;
+  }
+  
+  #dadosUsuario div {
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  
+  /* Foto de perfil arredondada */
+  #imagem img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* deixa a imagem redonda */
+    object-fit: cover; /* garante que preencha o círculo */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    border: 4px solid #9d4edd;
+    margin-top: 20px;
+  }
+  
+  /* Input de ID */
+  input[type="number"] {
+    padding: 15px;
+    width: 250px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #9d4edd;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin-bottom: 20px;
+    transition: 0.3s;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: #c77dff;
+  }
+  
+  /* Botão de buscar */
+  button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #9d4edd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #c77dff;
+    color: #000;
+    transform: scale(1.05);
+  }
+  
+  /* Mensagem de erro */
+  #erro {
+    color: #ff4d4d;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  
+  /* Link, se for exibido */
+  #link a {
+    color: #c77dff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  #link a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+  
+    input[type="number"], button {
+      width: 90%;
+    }
+  
+    #imagem img {
+      width: 140px;
+      height: 140px;
+    }
+  }
+  

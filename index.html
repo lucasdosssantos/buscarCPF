@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Buscar CPF</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <main>
+    <h1>Buscar CPF</h1>
+
+    <section id="dadosUsuario">
+      <div id="nome"></div>
+      <div id="sobrenome"></div>
+      <div id="imagem"></div>
+      <div id="cidade"></div>
+      <div id="pais"></div>
+      <div id="link"></div>
+    </section>
+
+    <input type="number" id="valorDigitado" placeholder="Digite o ID do usuário">
+    <div id="erro"></div>
+    <button onclick="buscar()">Buscar</button>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
