@@ -1,1 +1,101 @@
-# buscarCPF
+ {
+        "id": 1,
+        "cpf": 12345678900,
+        "nome": "Ygona",
+        "sobrenome": "Moura",
+        "cidade": "São Paulo",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/ygona.avif' width='200px'>"
+    },
+    {
+        "id": 2,
+        "cpf": 18845678900,
+        "nome": "Andressa",
+        "sobrenome": "Urach",
+        "cidade": "São Paulo",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/andressa.png' width='200px'>"
+    },
+    {
+        "id": 3,
+        "cpf": 12665228900,
+        "nome": "Wanessa",
+        "sobrenome": "Wolf",
+        "cidade": "São José dos Campos",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/wanessa.jpg' width='200px'>"
+    },
+    {
+        "id": 4,
+        "cpf": 12345888770,
+        "nome": "Saori",
+        "sobrenome": "Kido",
+        "cidade": "Pindamonhangaba",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/saori.jpg' width='200px'>"
+    },
+    {
+        "id": 5,
+        "cpf": 12341523900,
+        "nome": "Ray",
+        "sobrenome": "Pugliese",
+        "cidade": "Rio de Janeiro",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/ray.jpg' width='200px'>"
+    },
+    {
+        "id": 6,
+        "cpf": 12365528900,
+        "nome": "João",
+        "sobrenome": "Pedro",
+        "cidade": "Maranhão",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/ola.png' width='200px'>"
+    },
+    {
+        "id": 7,
+        "cpf": 12345238900,
+        "nome": "Mary",
+        "sobrenome": "Josephine",
+        "cidade": "Suzano",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/mary.png' width='200px'>"
+    },
+    {
+        "id": 8,
+        "cpf": 12345623900,
+        "nome": "Luana",
+        "sobrenome": "Coutto",
+        "cidade": "Salesopolis",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/luana.jpg' width='200px'>"
+    },
+    {
+        "id": 9,
+        "cpf": 12349228950,
+        "nome": "Hisalana",
+        "sobrenome": "Gomes",
+        "cidade": "Mogi das Cruzes",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/hisalana.png' width='200px'>"
+    },
+    {
+        "id": 10,
+        "cpf": 12342538900,
+        "nome": "Aghata",
+        "sobrenome": "Nunes",
+        "cidade": "Guaianases",
+        "pais": "Brasil",
+        "link": "https://nirvana.com",
+        "imagem": "<img src='img/agata.webp' width='200px'>"
+    }
+]
